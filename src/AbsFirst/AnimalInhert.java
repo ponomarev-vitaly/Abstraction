@@ -6,6 +6,9 @@ public class AnimalInhert {
     // Abstract methods can live only in abstract classes.
     public void makesound(){}
 
+    public void jump() {
+    }
 
-
+    public void name() {
+    }
 }

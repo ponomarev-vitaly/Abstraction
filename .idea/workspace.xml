@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstraction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbsFirst/AbsApp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbsFirst/AnimalAbs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbsFirst/AnimalInhert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="I added new class to demonstrate the differences between abstract classes, methods and inherited classes, methods.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbsFirst/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbsFirst/CatInh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QA1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QA1/BigCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QA1/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbsFirst/AbsApp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbsFirst/AbsApp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbsFirst/AnimalAbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbsFirst/AnimalAbs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbsFirst/AnimalInhert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbsFirst/AnimalInhert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,6 +56,29 @@
       <option name="presentableId" value="Default" />
       <updated>1679966840709</updated>
     </task>
+    <task id="LOCAL-00001" summary="I added new class to demonstrate the differences between abstract classes, methods and inherited classes, methods.">
+      <created>1679968252571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679968252571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I added new class to demonstrate the differences between abstract classes, methods and inherited classes, methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added new class to demonstrate the differences between abstract classes, methods and inherited classes, methods." />
   </component>
 </project>
