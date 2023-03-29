@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="I made Contra class inherit from the parent abstract class Game.">
+    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="I modified if statements which contain //TODO.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameController/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameController/GameController.java" afterDir="false" />
     </list>
@@ -124,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680054777469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I added Main menu and if statements.">
+      <created>1680056657386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680056657386</updated>
+    </task>
+    <task id="LOCAL-00008" summary="I modified if statements which contain //TODO.">
+      <created>1680056728042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680056728042</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +159,8 @@
     <MESSAGE value="I added game classes Sonic, Mario, Contra and game controller." />
     <MESSAGE value="I added main menu and concrete methods in the Game Controller class." />
     <MESSAGE value="I made Contra class inherit from the parent abstract class Game." />
-    <option name="LAST_COMMIT_MESSAGE" value="I made Contra class inherit from the parent abstract class Game." />
+    <MESSAGE value="I added Main menu and if statements." />
+    <MESSAGE value="I modified if statements which contain //TODO." />
+    <option name="LAST_COMMIT_MESSAGE" value="I modified if statements which contain //TODO." />
   </component>
 </project>
