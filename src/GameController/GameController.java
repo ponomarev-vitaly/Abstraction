@@ -51,9 +51,13 @@ public class GameController {
                         }
                     }
                 }
-            } else if(isGameSelect){
+            }
+
+            if(isGameSelect){
                 // TODO
-            } else if(isGamePlay){
+            }
+
+            if(isGamePlay){
                 // TODO
             }
             System.out.println("\n\n");
