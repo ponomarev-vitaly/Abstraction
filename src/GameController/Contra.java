@@ -1,6 +1,6 @@
 package GameController;
 
-public class Contra {
+public class Contra extends Game{
     public void up() {
         System.out.println("Soldier aims up.");
     }
