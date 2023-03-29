@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="I created abstract classes to make some code with the abstract classes and check how the code works.">
-      <change afterPath="$PROJECT_DIR$/src/GameController/Contra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameController/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameController/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameController/Mario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameController/Sonic.java" afterDir="false" />
+    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="I added game classes Sonic, Mario, Contra and game controller.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameController/Contra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameController/Contra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameController/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameController/GameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GameController">
+    <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameController.GameController" />
+      <module name="Abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GameController.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhoneApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Phone.PhoneApplication" />
       <module name="Abstraction" />
@@ -59,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameController" />
         <item itemvalue="Application.PhoneApplication" />
       </list>
     </recent_temporary>
@@ -93,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679974317339</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I added game classes Sonic, Mario, Contra and game controller.">
+      <created>1680053096418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680053096418</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +129,7 @@
     <MESSAGE value="I added new class to demonstrate the differences between abstract classes, methods and inherited classes, methods." />
     <MESSAGE value="I added some more examples of how abstraction works and what are the differences between abstract class, methods and inherited class, methods." />
     <MESSAGE value="I created abstract classes to make some code with the abstract classes and check how the code works." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created abstract classes to make some code with the abstract classes and check how the code works." />
+    <MESSAGE value="I added game classes Sonic, Mario, Contra and game controller." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added game classes Sonic, Mario, Contra and game controller." />
   </component>
 </project>
