@@ -5,18 +5,24 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GameController {
-    Scanner scan = new Scanner(System.in);
+    static Scanner scan = new Scanner(System.in);
     static ArrayList<Game> games = new ArrayList<>();
+    static boolean isMainMenu = true;
+    static int mainMenuOption = 1;
+    static boolean isGameSelect = false;
+    static int gameMenuOption = 1;
+    static boolean isGamePlay = false;
+    static int selectedGame = 0;
+    static char input = 'z';
 
     public static void main(String[] args) {
 
         games.add(new Sonic());
         games.add(new Mario());
         games.add(new Contra());
-
         games.get(0).down();
 
-        char input = 'z';
+
         /*
         UP          -> U
         DOWN        -> D
@@ -26,21 +32,46 @@ public class GameController {
         B           -> B
         Selection   -> S
          */
-        /*
-        do{
-            input = mainMenu();
-        }while(input != 'p');
 
-         */
+        do{
+            if(isMainMenu){
+                input = mainMenu();
+                if(input == 'D'){
+                    if(mainMenuOption == 1){
+                        mainMenuOption = 2;
+                    } else if (input == 'U'){
+                        if(mainMenuOption == 2){
+                            mainMenuOption = 1;
+                        }
+                    }  else if (input == 'S') {
+                        if(mainMenuOption == 1){
+                            System.out.println("User can select game.");
+                        }else{
+                            System.out.println("User can play the game.");
+                        }
+                    }
+                }
+            } else if(isGameSelect){
+                // TODO
+            } else if(isGamePlay){
+                // TODO
+            }
+            System.out.println("\n\n");
+        }while(input != 'p');
     }
 
-    // If we use method in static method the method have to be static as well.
+    // If we call method in static method the method have to be static as well.
     public static char mainMenu(){
         System.out.println("----------MAIN MENU----------");
         System.out.println("-------SELECTED GAME: -------");
-        System.out.println("Game Select");
-        System.out.println("Game Start");
-        System.out.println("-----------------------------");
-        return 'p';
+        if(mainMenuOption == 1){
+            System.out.println("\t -> Game Select <- ");
+            System.out.println("Game Start");
+        } else if(mainMenuOption == 2) {
+            System.out.println("Game Select");
+            System.out.println("\t -> Game Start <- ");
+        }
+        System.out.println("---(D)own--(U)p--(S)elect-----");
+        return scan.next().charAt(0);
     }
 }
