@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="I added gamePlay method. Application runs smoothly with basic functions.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a7542a0-537d-4d57-9aed-e9b648f0c621" name="Changes" comment="No changes have been made yet." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680061201989</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="No changes have been made yet.">
+      <created>1680140698869</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680140698869</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +173,7 @@
     <MESSAGE value="I added Main menu and if statements." />
     <MESSAGE value="I modified if statements which contain //TODO." />
     <MESSAGE value="I added gamePlay method. Application runs smoothly with basic functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added gamePlay method. Application runs smoothly with basic functions." />
+    <MESSAGE value="No changes have been made yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="No changes have been made yet." />
   </component>
 </project>
